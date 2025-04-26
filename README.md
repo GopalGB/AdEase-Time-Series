@@ -80,7 +80,7 @@ The analysis uses two primary datasets:
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/wikipedia-views-forecasting.git
+git clone https://github.com/GopalGB/AdEase-Time-Series.git
 cd wikipedia-views-forecasting
 
 # Install required packages
@@ -92,26 +92,13 @@ jupyter notebook Wikipedia_Views_Forecasting.ipynb
 
 ## 📁 File Structure
 ```
-wikipedia-views-forecasting/
-├── data/
-│   ├── train_1.csv                    # Main Wikipedia page views dataset
-│   └── Exog_Campaign_eng.csv          # Campaign data for English pages
-├── notebooks/
-│   ├── 01_Data_Exploration.ipynb      # Initial data analysis and preprocessing
-│   ├── 02_Stationarity_Analysis.ipynb # Stationarity tests and transformations
-│   ├── 03_ARIMA_SARIMA_Modeling.ipynb # Time series model development
-│   ├── 04_Prophet_Modeling.ipynb      # Facebook Prophet implementation
-│   └── 05_Cross_Language_Analysis.ipynb # Multi-language pipeline and results
-├── src/
-│   ├── data_processing.py             # Data cleaning and transformation functions
-│   ├── stationarity.py                # Stationarity test functions
-│   ├── modeling.py                    # ARIMA/SARIMA/SARIMAX model functions
-│   └── forecasting_pipeline.py        # End-to-end forecasting pipeline
-├── results/
-│   ├── figures/                       # Generated visualizations
-│   └── model_performance.csv          # Performance metrics by language
-├── requirements.txt                   # Required packages
-└── README.md                          # Project documentation
+AdEase-Time-Series/
+│
+├── AdEase_Time_Series.ipynb      # Main Jupyter notebook with analysis
+├── AdEase_Time_Series.pdf        # PDF export of the notebook
+├── README.md                     # Project documentation
+├── requirements.txt              # Package dependencies
+             # Ensures directory is tracked by git
 ```
 
 ## 📊 Results Summary
