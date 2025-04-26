@@ -81,7 +81,7 @@ The analysis uses two primary datasets:
 ```bash
 # Clone the repository
 git clone https://github.com/GopalGB/AdEase-Time-Series.git
-cd wikipedia-views-forecasting
+cd AdEase-Time-Series
 
 # Install required packages
 pip install -r requirements.txt
